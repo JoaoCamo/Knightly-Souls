@@ -18,8 +18,8 @@ public class GameManager : MonoBehaviour
             Destroy(Menu);
             return;
         }
-
-        PlayerPrefs.DeleteAll();
+        
+        //PlayerPrefs.DeleteAll();
 
         instance = this;
 
